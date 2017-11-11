@@ -14,7 +14,7 @@ namespace _03.Poke_Mon
             int m = int.Parse(Console.ReadLine());
             int y = int.Parse(Console.ReadLine());
 
-            int halfN = n / 2;
+            int halfN = (n * 50) / 100;
             int count = 0;
             while (n >= m)
             {
